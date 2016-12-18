@@ -218,14 +218,14 @@ $input-border:                   #ccc !default;
 // TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
 //** Default `.form-control` border radius
 // This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
-$input-border-radius:            $border-radius-base !default;
+$input-border-radius:            $border-radius-small !default;
 //** Large `.form-control` border radius
 $input-border-radius-large:      $border-radius-large !default;
 //** Small `.form-control` border radius
 $input-border-radius-small:      $border-radius-small !default;
 
 //** Border color for inputs on focus
-$input-border-focus:             #66afe9 !default;
+$input-border-focus:             $color2 !default;
 
 //** Placeholder text color
 $input-color-placeholder:        #999 !default;

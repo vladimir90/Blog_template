@@ -12,10 +12,10 @@ $(document).ready(function(){
 	$(".site-overlay").on('click',function(){
 
 		$(".hamburger").removeClass("is-active");
-		
+
 	});
 
-	
+
 
 
 
@@ -51,3 +51,20 @@ sr.reveal('p');
 
 
 
+//jquery validate
+jQuery.validator.setDefaults({
+  debug: true,
+  success: "valid"
+});
+
+$( "#myform" ).validate({
+	rules: {
+			name: 'required',
+			email: {
+				required: true,
+					email: true
+			},
+			textArea: 'required',
+
+	}
+});

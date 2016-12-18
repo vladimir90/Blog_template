@@ -116,7 +116,6 @@
 
 
 
-
 	}
 	.row{
 		padding-bottom:50px;
@@ -127,8 +126,18 @@
 
 		}
 	}
-
-
+	input[type="text"],input[type="email"]{
+		width:300px;
+	}
+	label#textArea-error.error{
+		color:$color3;
+	}
+	label#email-error.error{
+		color:$color3;
+	}
+	label#name-error.error{
+		color:$color3;
+	}
 
 
 
